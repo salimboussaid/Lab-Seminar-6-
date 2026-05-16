@@ -92,3 +92,30 @@ In this lab, I ran `iris-ml-app.py` and tested a Streamlit web app that predicts
 ```bash
 streamlit run iris-ml-app.py
 ```
+
+## Lab 6
+
+In this lab, I trained a simple linear regression model with `demo_lin_reg_fit.py`, saved it as `model.pkl`, and tested the Streamlit web app locally with `demo_lin_reg_webapp.py`. The deployment files for Streamlit Cloud are `requirements.txt`, `model.pkl`, and `demo_lin_reg_webapp.py`.
+
+### Screenshots
+
+<p align="center">
+  <img src="screenshot/lab6/1.png" width="90%" alt="Lab 6 linear regression Streamlit app screenshot">
+</p>
+
+### Commands
+
+```bash
+python demo_lin_reg_fit.py
+streamlit run demo_lin_reg_webapp.py
+```
+
+### Streamlit Cloud Deployment
+
+The files to upload to GitHub for deployment are:
+
+```text
+requirements.txt
+model.pkl
+demo_lin_reg_webapp.py
+```

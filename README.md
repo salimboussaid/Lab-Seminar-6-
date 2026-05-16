@@ -35,3 +35,24 @@ In this lab, I ran `app2.py` and learned how Streamlit displays formatted messag
 ```bash
 streamlit run app2.py
 ```
+
+## Lab 3
+
+In this lab, I ran `demo_st_various_input_methods.py` and learned different ways to accept user inputs in Streamlit. The app demonstrates a slider, text field, drop-down menu, button, checkbox, radio buttons, and message boxes.
+
+### Screenshots
+
+<p align="center">
+  <img src="screenshot/lab3/3.png" width="98%" alt="Lab 3 Streamlit command screenshot">
+</p>
+
+<p align="center">
+  <img src="screenshot/lab3/1.png" width="48%" alt="Lab 3 Streamlit app screenshot top">
+  <img src="screenshot/lab3/2.png" width="48%" alt="Lab 3 Streamlit app screenshot bottom">
+</p>
+
+### Command
+
+```bash
+streamlit run demo_st_various_input_methods.py
+```

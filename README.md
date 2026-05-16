@@ -72,3 +72,23 @@ In this lab, I ran `app3.py` and tested a Streamlit web app that uses a simple l
 ```bash
 streamlit run app3.py
 ```
+
+## Lab 5
+
+In this lab, I ran `iris-ml-app.py` and tested a Streamlit web app that predicts the Iris flower class. The app uses four sidebar sliders for sepal length, sepal width, petal length, and petal width, then displays the selected feature values, class labels, prediction probabilities, and final predicted class.
+
+### Screenshots
+
+<p align="center">
+  <img src="screenshot/lab5/2.png" width="98%" alt="Lab 5 Streamlit command screenshot">
+</p>
+
+<p align="center">
+  <img src="screenshot/lab5/1.png" width="70%" alt="Lab 5 Iris prediction app screenshot">
+</p>
+
+### Command
+
+```bash
+streamlit run iris-ml-app.py
+```

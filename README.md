@@ -56,3 +56,19 @@ In this lab, I ran `demo_st_various_input_methods.py` and learned different ways
 ```bash
 streamlit run demo_st_various_input_methods.py
 ```
+
+## Lab 4
+
+In this lab, I ran `app3.py` and tested a Streamlit web app that uses a simple linear regression model. The app lets the user change `X_test` with a sidebar slider, then displays the model intercept, coefficient, and predicted `y` value.
+
+### Screenshots
+
+<p align="center">
+  <img src="screenshot/lab4/image.png" width="70%" alt="Lab 4 Streamlit app screenshot">
+</p>
+
+### Command
+
+```bash
+streamlit run app3.py
+```
